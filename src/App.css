@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*https://colorhunt.co/palette/222831393e46ffd369eeeeee*/
+
 * {
   margin: 0;
   padding: 0;
@@ -6,66 +9,81 @@
 }
 
 body {
-  background-color: #355872;
+  background-color: #222831;
 }
 
-.login {
-  background-color: #7AAACE;
-  width: 400px;
-  height: 400px;
+.login-form {
+  width: 500px;
+  height: 500px;
+  background-color: #393E46;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
   border-radius: 10px;
 }
 
-.login h1 {
-    color: #F7F8F0;
-    font-size: 30px;
-}
-
-.fillusername {
-  margin-top: 50px;
-}
-
-.fillusername h6 {
-  color: #F7F8F0;
-  font-size: 20px;
-}
-
-.fillusername input {
-  background-color: #9CD5FF;
-  width: 300px;
-  height: 25px;
-  border-radius: 10px;
-  margin-top: 10px;
-  border: none;
-  text-align: center;
-}
-
-.fillpassword {
-  margin-top: 50px;
-}
-
-.fillpassword h6 {
-  color: #F7F8F0;
-  font-size: 20px;
-}
-
-.fillpassword input {
-  background-color: #9CD5FF;
-  border: none;
-  text-align: center;
-  width: 300px;
-  height: 25px;
-  border-radius: 10px;
-}
-
-.continue button{
-  background-color: #355872;
-  width: 100px;
-  height: 30px;
-  border: none;
+.login-l-h1 {
+  color: #FFD369;
+  font-size: 40px;
   margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Montserrat';
+}
+
+.login-u-label {
+  color: #FFD369;
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+
+.login-p-label {
+  color: #FFD369;
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+
+.login-u-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 25px;
   border-radius: 10px;
+  border-style: none;
+  background-color: #222831;
+  font-family: 'Montserrat';
+  text-indent: 10px;
+}
+
+.login-p-input {
+  margin-top: 20px;
+  width: 350px;
+  height: 25px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #222831;
+  font-family: 'Montserrat';
+  text-indent: 10px;
+}
+
+.login-l-button {
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  font-family: 'Montserrat';
+  background-color: #222831;
+  border-style: none;
+}
+
+.login-fp-p {
+  font-family: 'Montserrat';
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.login-ca-p {
+  font-family: 'Montserrat';
+  font-size: 15px;
+  margin-top: -20px;
 }

@@ -3,20 +3,23 @@ import './App.css'
 function App() {
 
   return (
-    <div className='login'>
-      <h1>Login</h1>
-      <div className='fillusername'>
-        <h6>Enter Username</h6>
-        <input></input>
-      </div>
-      <div className='fillpassword'>
-        <h6>Enter Password</h6>
-        <input></input>
-      </div>
-      <div className="continue">
-        <button>Login</button>
-      </div>
-    </div>
+      <form className='login-form'>
+        <h1 className='login-l-h1'>Login</h1>
+        <br></br>
+        <label className='login-u-label' for='username'>Username</label>
+        <br></br>
+        <input className='login-u-input'></input>
+        <br></br>
+        <label className='login-p-label' for='password'>Password</label>
+        <br></br>
+        <input className='login-p-input'></input>
+        <br></br>
+        <button className='login-l-button'>Login</button>
+        <br></br>
+        <p className='login-fp-p'><a href='#'>Forgot Your Password?</a></p>
+        <br></br>
+        <p className='login-ca-p'><a href='#'>Want To Create An Account?</a></p>
+      </form>
   )
 }
 
